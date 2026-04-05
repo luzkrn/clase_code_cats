@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(fonfo.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Iosevka Charon Mono", monospace;
+    padding: 40px 50px;
+}
+#inicio{
+    background:linear-gradient(to right,#2F004F,#A4508B,#C191A1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 80px 5px;
+}
+.h1{
+    font-size: 45px;
+    color: #2F004F;
+    
+}
+.h3{
+    font-style: italic;
+}
+.frase{
+    color: #EABFCB;
+    font-size: 12px;
+    font-style: italic;
+}
+.divimagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.imagenperfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid #2F004F;
+}
+p{
+    color: antiquewhite;
+    padding: 20px;
+    background-color: #bd567879;
+    border-radius: 10px;
+}
+h2{
+    color: #84376b;
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+}
+li {
+    font-family: cursive;
+
+    font-size: 20px;
+    color: #F397D6;
+    padding: 2px;
+    -webkit-text-stroke: 0.6px black;
+    text-align: center;
+    width: fit-content;
+}
+
+li::before {
+    content: "*";
+    color: #625875;
+    font-weight: bold;
+    text-align: left; 
+    display: inline-block;
+    width: 25px;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1000px; 
+}
+
+.imagen {
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.destacado{
+    /*background-color: rgba(188, 68, 235, 0.268);*/
+    padding:30px;
+    font-weight: bold;
+}
+.codigo{
+    white-space: pre-line;
+}
